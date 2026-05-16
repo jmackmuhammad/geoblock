@@ -29,6 +29,8 @@ app.use(function(err, req, res, next) {
   res.sendStatus(err.status || 500);
 });
 
-app.listen(2020, function () {
+const PORT = process.env.PORT || 2020;
+
+app.listen(PORT, function () {
   console.log('Express server listening on port ' + 2020);
 });
