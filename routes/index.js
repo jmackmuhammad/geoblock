@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 
-const CLIENT_ID = '02gUJC0hH2ct1EGOcYXQIzRFU91c72Ea';
+const CLIENT_ID = 'gxPRNsEq7CDD7Wvem4iymWOq3YfU7KS8';
 
 router.get('/policy/:id', async (req, res) => {
     try {
